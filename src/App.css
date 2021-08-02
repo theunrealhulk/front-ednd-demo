@@ -46,4 +46,51 @@
 h6 {
   margin-bottom: 80px;
 }
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  background-image: url("https://picsum.photos/620");
+  color: #fff;
+  padding: 9% 0;
+  margin: 0 15px;
+  border-radius: 20px;
+}
+
+.item .wrapper {
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 90%;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10% 0;
+  -webkit-box-shadow: rgba(56, 56, 56, 0.5) 0px 0px 50px 10px;
+          box-shadow: rgba(56, 56, 56, 0.5) 0px 0px 50px 10px;
+}
+
+.item .wrapper .paragraph, .item .wrapper h2 {
+  color: #7e7e7e;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item .wrapper .paragraph p {
+  padding: 10px;
+  text-align: center;
+}
+
+.item .wrapper p {
+  padding-bottom: 10px;
+}
 /*# sourceMappingURL=App.css.map */

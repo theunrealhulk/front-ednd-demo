@@ -1,6 +1,8 @@
 $green :#519983;
 $gray : #adaaaa;
 $boxSiz :200px;
+$random_image_url:url('https://picsum.photos/620');
+
 .App {
     color: $green;
     text-align: center;
@@ -20,9 +22,7 @@ $boxSiz :200px;
   h3{
     position:absolute;
     width: $boxSiz;
-    
     margin: 0px;
-    
   }
 }
 .label{
@@ -47,3 +47,42 @@ $boxSiz :200px;
 h6{
   margin-bottom: 80px;
 }
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  background-image:$random_image_url ;
+  color: #fff;
+  padding:9% 0;
+  margin: 0 15px;
+  border-radius: 20px;
+
+  .wrapper{
+    background-color: white;
+    justify-content: center;
+    height: 90%;
+    width: 250px;
+    border-radius: 5px;
+    padding:10% 0;
+    box-shadow:rgba(56, 56, 56,0.5) 0px 0px 50px 10px;
+    .paragraph,h2{
+      color: rgb(126, 126, 126);
+      justify-content: center;
+    }
+    
+    .paragraph p{
+      padding: 10px;
+      text-align: center;
+    }
+  
+    p{
+      padding-bottom: 10px;
+    } 
+  }
+}
+
+
+
+
