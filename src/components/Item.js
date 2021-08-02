@@ -1,9 +1,10 @@
-import React from 'react'
 
-const Item = () => {
+
+const Item = ({label,background}) => {
     return (
-        <div>
+        <div className='box row align-items-center'>
             
+            <h3 >{label!== '' ? <span className='label'>{label}</span> :< img className='bg' src={background}/>} </h3>
         </div>
     )
 }

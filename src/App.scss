@@ -1,0 +1,49 @@
+$green :#519983;
+$gray : #adaaaa;
+$boxSiz :200px;
+.App {
+    color: $green;
+    text-align: center;
+    h6{
+        color: $gray;
+    }
+}
+.grid {
+  margin: auto;
+  width: 575px;
+  height: $boxSiz * 4;
+  background: #fff;
+}
+.box 
+{
+  height: $boxSiz;
+  h3{
+    position:absolute;
+    width: $boxSiz;
+    
+    margin: 0px;
+    
+  }
+}
+.label{
+  padding-top: 85px;
+}
+.bg{
+  height: $boxSiz;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.col-lg{
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer{
+  margin-top: 80px;
+}
+
+h6{
+  margin-bottom: 80px;
+}
